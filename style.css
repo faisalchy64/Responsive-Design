@@ -1,158 +1,28 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
+.bg-bd {
     background: #E5E5E5;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-img {
-    width: 100%;
-}
-
-/* navbar component */
-header {
+.bg-purple {
     background: #562EFF;
-    margin-bottom: 2rem;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 0;
-    color: #FFFFFF;
-}
-
-.brand, .menu, .menu-box ul{
-    display: flex;
-    align-items: center;
-}
-
-.brand h2 {
-    margin-left: 1rem;
-}
-
-.brand .img-box {
-    width: 40px;
-}
-
-.menu {
-    position: relative;
-}
-
-.menu-box {
-    margin-right: 1rem;
-}
-
-.menu-box span {
-    display: none;
-    font-size: 2.5rem;
-    margin-right: 1rem;
-}
-
-.menu .img-box {
-    width: 50px;
-}
-
-.menu-box ul {
-    background: #562EFF;
-    list-style: none;
-}
-
-.menu-box ul li {
-    padding: 0 10px;
-    cursor: pointer;
-}
-/* navbar component */
-
-/* main component */
-section {
+.bg-section {
     background: #FFFFFF;
-    padding: 2rem;
-    margin-bottom: 1.5rem;
 }
 
-section > h2 {
+.text-purple {
     color: #562EFF;
-    margin-bottom: 2.5rem;
 }
 
-.players {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+.text-tomato {
+    color: #ED6B4F;
+
 }
 
-.player {
-    display: flex;
-    align-items: center;
+.text-star {
+    color: #FFC014;
 }
 
-.player .img-box {
-    width: 55px;
+a {
+    text-decoration: none;
 }
-
-.player h3 {
-    margin-left: 15px;
-}
-/* main component */
-
-/* responsive */
-@media only screen and (max-width: 830px) {
-    /* main component */
-    /* player component */
-    .players {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    /* player component */
-    /* main component */
-}
-
-@media only screen and (max-width: 550px) {
-    .container {
-        width: 90%;
-    }
-
-    /* navbar component */
-    .menu-box span {
-        display: block;
-    }
-
-    .menu-box ul {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 75%;
-        left: 0;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
-    }
-
-    .menu-box ul li {
-        padding: 1rem 2rem;
-    }
-
-    .menu-box ul li:hover {
-        background: #9FA8DA;
-    }
-
-    .menu-box:hover ul {
-        display: flex;
-    }
-    /* navbar component */
-
-    /* main component */
-    /* player component */
-    .players {
-        grid-template-columns: 1fr;
-    }
-    /* player component */
-    /* main component */
-}
-/* responsive */
