@@ -1,26 +1,25 @@
 .bg-bd {
-    background: #E5E5E5;
+    background: #e5e5e5;
 }
 
 .bg-purple {
-    background: #562EFF;
+    background: #562eff;
 }
 
 .bg-section {
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .text-purple {
-    color: #562EFF;
+    color: #562eff;
 }
 
 .text-tomato {
-    color: #ED6B4F;
-
+    color: #ed6b4f;
 }
 
 .text-star {
-    color: #FFC014;
+    color: #ffc014;
 }
 
 a {
